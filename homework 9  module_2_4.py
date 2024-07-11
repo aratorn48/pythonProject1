@@ -8,6 +8,7 @@ for i in range(len(numbers)):
         for j in range(2, i):
             if (i % j) == 0:
                 not_primes.append(i)
+                is_prime = False
                 break
         else:
             primes.append(i)
